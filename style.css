@@ -7,3 +7,22 @@ p{
   font-family: 'Open Sans', sans-serif;;
   font-weight:400;
 }
+
+a{
+  font-family: 'Open Sans', sans-serif;;
+  font-weight:400;
+  font-size: 10px;
+  text-align: right;
+}
+
+.LandingPage{
+  display: flex;
+}
+
+.imageArea {
+  flex: 50%;
+}
+
+.textArea {
+  flex: 50%;
+}
