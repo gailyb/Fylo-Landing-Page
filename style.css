@@ -15,6 +15,11 @@ a{
   text-align: right;
 }
 
+i{
+  font-size: 25px;
+  padding: 0.5em;
+}
+
 .LandingPage{
   display: flex;
 }
@@ -25,4 +30,20 @@ a{
 
 .textArea {
   flex: 50%;
+}
+
+div .bgImage{
+  /*background: hsl(243, 86%, 85%);
+  background: -webkit-linear-gradient(to left bottom, hsl(243, 87%, 12%), hsl(243, 86%, 85%));
+  background:    -moz-linear-gradient(to left bottom, hsl(243, 87%, 12%), hsl(243, 86%, 85%));
+  background:         linear-gradient(to left bottom, hsl(243, 87%, 12%), hsl(243, 86%, 85%));
+  background: hsl(243, 87%, 12%);
+  position: relative;*/
+
+}
+
+.image{
+  position: absolute;
+  top: 1%;
+  left: 1%;
 }
