@@ -1,11 +1,13 @@
-h1, h4 {
+.title {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 
-p{
+.content{
   font-family: 'Open Sans', sans-serif;;
   font-weight:400;
+  padding: 5%;
+  align-items: center;
 }
 
 a{
@@ -32,14 +34,20 @@ i{
   flex: 50%;
 }
 
-.header{
+.header {
   display: flex;
+  padding: 5%;
   align-items: center;
+}
+
+.header .socialMediaIcons{
+  padding-left: 15%;
 
 }
 
-div {
+div .bgImage {
   position: relative;
+  background-color: blue;
 
 }
 
@@ -47,4 +55,12 @@ div {
   position: absolute;
   top: 1%;
   left: 1%;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
