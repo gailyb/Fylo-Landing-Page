@@ -4,14 +4,14 @@
 }
 
 .content{
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
   font-weight:400;
-  padding: 5%;
+  padding: 10%;
   align-items: center;
 }
 
 a{
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
   font-weight:400;
   font-size: 10px;
   text-align: right;
@@ -42,19 +42,61 @@ i{
 
 .header .socialMediaIcons{
   padding-left: 15%;
-
+  position: relative;
 }
 
-div .bgImage {
-  position: relative;
-  background-color: blue;
+.fab:hover{
+  background-color: hsl(243, 86%, 85%);
+}
 
+.text {
+  color: hsl(0, 0%, 50%);
+}
+
+.emailLabel{
+  margin-top: 50px;
+  margin-bottom: 0px;;
+  font-weight: 700;
+}
+
+.bgImage {
+  background-color: black;
 }
 
 .image{
   position: absolute;
   top: 1%;
   left: 1%;
+}
+
+.emailInput{
+  display: inline-block;
+  height: 50px;
+  width: 50%;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 3px 3px 8px 0px hsl(0, 0%, 50%);
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: hsl(163, 95%, 43%);
+  border: 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 3px 3px 8px 0px hsl(0, 0%, 70%);
+  cursor: pointer;
+
+}
+
+.PrivacyPolicy {
+  position: relative;
+  right: 0;
 }
 
 footer {
